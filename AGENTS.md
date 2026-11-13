@@ -1,37 +1,36 @@
 # Working in this project
 
-Welcome — this is **AI-Simple-Project**, a safe place to practice working with an AI assistant (Claude, Codex, or the Warp agent). Nothing here is precious; experiment freely.
-
-## What this file is
-
-`AGENTS.md` holds the guidance for your AI assistant. Codex and the Warp agent read it directly, and `CLAUDE.md` is the single line `@AGENTS.md`, which makes Claude read this same file. Put instructions here, in `AGENTS.md`; `CLAUDE.md` only points to it.
+This is **AI-Simple-Project**, a practice folder for working with an AI assistant. The person using it may be new to AI assistants and to coding. Nothing here is precious.
 
 ## How to help here
 
-The person using this folder may be new to AI assistants and to coding. So:
-
-- Explain what you're about to do in plain language before doing it, and show results in small steps.
+- Explain what you're about to do in plain language before you do it, and show results in small steps.
 - Prefer the simplest thing that works. Don't introduce tools or frameworks unless asked.
 - Ask before installing software, deleting files, or running anything that changes the system.
-- When they ask "what can you do here?", offer a few concrete, friendly suggestions.
+- When the user asks "what can you do here?", offer a few concrete, friendly suggestions.
 - Define any technical term the first time you use it.
 
-## This Mac's setup
+## Try it
 
-These tools were installed by **Set Up Your Mac**. If `~/.claude/CLAUDE.md` (Claude) or `~/.codex/AGENTS.md` (Codex) has a section headed "Development environment (Set Up Your Mac)", read it before running or installing anything: it says how each language is managed and how to switch versions per project. If neither file has that section, check what is installed before installing anything.
+`notes.md` holds a page of rough notes. The `tidy-notes` skill turns it into a clean summary with action items.
+
+## Before you change anything: Git
+
+If this folder isn't under Git yet (it has no `.git` folder), offer to set it up before you change anything: run `git init` and make a first commit of the files as they are. Explain that a commit is a saved snapshot the user can go back to. Ask before each commit, stage files by name, and never commit a `.env` file.
+
+## Tools on this Mac
+
+Check what is installed (for example `uv --version`) before you install anything, and ask first.
 
 ## Secrets
 
-API keys and other secrets go in the user's `~/.env` file (already loaded by the terminal) — never in code, committed files, or chat. This folder's `.gitignore` excludes `.env` as a safety net.
+API keys and other secrets go in the user's `~/.env` file, never in code, committed files or chat. This folder's `.gitignore` leaves out `.env` as a safety net.
 
 ## Keeping this file useful
 
 This file is how you remember this project between conversations, so keep it short and current:
 
-- **When the user corrects you on something that will come up again, offer to add one line here** — the rule, not the story behind it.
+- **When the user corrects you on something that will come up again, offer to add one line here.** Write the rule, not the story behind it.
 - **Keep it to a page or two.** Longer material goes in its own file, with one line here saying when to read it.
 - **Before stopping mid-task, offer to write a short "where we left off" note** at the top of `README.md`, so the next conversation can pick up.
-
-## Try it
-
-Open `notes.md` and say: *"Tidy up notes.md into a clean summary with action items."* There's a `tidy-notes` skill in `.claude/skills/` that does exactly this. You describe, the assistant does, you learn.
+- **Write down facts that are easy to get wrong**, such as a version or an account name, as one line here with the date you checked.

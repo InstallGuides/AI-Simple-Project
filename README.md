@@ -1,32 +1,31 @@
-# 👋 Start here — your AI-Simple-Project
+# Start here: AI-Simple-Project
 
-**Set Up Your Mac** made this folder so you have a place to try working with an AI assistant. You don't need to know how to code.
+This folder is a safe place to try working with an AI assistant. You don't need to know how to code, and you can't break anything important here.
 
-## 1. Open this folder with your AI assistant
+*Step 1 of 3: try an AI assistant on a page of notes. No coding needed. Next: [AI-Coding-Lite](https://github.com/InstallGuides/AI-Coding-Lite), or [AI-Knowledgebase](https://github.com/InstallGuides/AI-Knowledgebase) for research.*
 
-- **Claude Code (terminal):** open a terminal in this folder, then run `claude`. If you kept the app's default, that's `cd ~/Projects/AI-Simple-Project`.
-- **Claude Desktop:** open the **Code** tab and point it at this folder
-- **Warp:** open this folder in Warp and use the agent (needs a Warp account and AI usage credits)
-- **Codex:** open this folder and run `codex`
+## Open this folder with your AI assistant
 
-## 2. Try a prompt
+- **Claude Desktop:** click **Code**, choose **Open folder…**, and pick this folder.
+- **ChatGPT app (Codex):** click **Add new project**, choose this folder, and start a Codex chat.
+- **Claude Code or Codex in a terminal:** open a terminal in this folder ([how](https://mac.install.guide/terminal/open)), then type `claude` or `codex`.
 
-Copy one of these to your assistant and see what happens:
+## Try it
+
+Copy one of these into your assistant:
 
 - *"What's in this folder, and what can you help me do here?"*
 - *"Tidy up notes.md into a clean summary with action items."*
 
-## 3. The two guidance files: CLAUDE.md and AGENTS.md
+## The instruction files
 
-You'll notice two files, `AGENTS.md` and `CLAUDE.md`. `AGENTS.md` holds the guidance for your assistant, and Codex and the Warp agent read it. `CLAUDE.md` is a single line, `@AGENTS.md`, which makes Claude (Claude Code and Claude Desktop) read the same file. So every assistant gets the same instructions from one place. To change them, edit `AGENTS.md` and leave `CLAUDE.md` as it is.
+`AGENTS.md` holds the instructions your assistant reads. `CLAUDE.md` is one line that points Claude to the same file, so edit `AGENTS.md` and leave `CLAUDE.md` alone.
 
-## 4. Keep going
+## Keep going
 
-- Edit `notes.md` (or add your own files) and ask the assistant to help.
-- Anything secret (passwords, API keys) goes in your `~/.env` file, never in chat or code. This folder ignores `.env` so it can't be shared by accident.
-
-That's it — experiment freely. You can't break anything important here.
+- Edit `notes.md`, or add files of your own, and ask the assistant to help.
+- Anything secret, such as an API key, goes in a file named `.env` in your home folder, never in this folder or in chat.
 
 ## Learn more
 
-For more about working with AI assistants, read [AI Coding Tools for Mac](https://mac.install.guide/ai/) and [Spec-Driven Development for AI](https://mac.install.guide/ai/spec-driven-development/) on Mac Install Guide.
+[Starter projects](https://mac.install.guide/developer-setup/starter-project) on Mac Install Guide explains this folder and what to try next.

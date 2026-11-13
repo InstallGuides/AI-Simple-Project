@@ -1,20 +1,5 @@
-# Secrets — never commit these
+# Secrets: never commit these
 .env
 
-# Python (uv)
-.venv/
-__pycache__/
-*.pyc
-
-# Node (mise)
-node_modules/
-
-# Build output
-dist/
-build/
-
-# Logs
-*.log
-
-# macOS
+# The Finder's view settings for each folder
 .DS_Store

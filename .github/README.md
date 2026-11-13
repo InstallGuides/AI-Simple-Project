@@ -1,14 +1,18 @@
 # AI-Simple-Project
 
-A ready-to-use starter folder for working with an AI assistant such as Claude or Codex. It has a few notes to try, and instruction files (`AGENTS.md` and `CLAUDE.md`) that tell the assistant how to help you.
+Using your own copy? Open `README.md` in this folder to start.
+
+A ready-to-use practice folder for working with an AI assistant such as Claude or Codex. It has a page of rough notes to try, and instruction files (`AGENTS.md` and `CLAUDE.md`) that tell the assistant how to help. You don't need to know how to code.
+
+*Step 1 of 3: try an AI assistant on a page of notes. No coding needed. Next: [AI-Coding-Lite](https://github.com/InstallGuides/AI-Coding-Lite), or [AI-Knowledgebase](https://github.com/InstallGuides/AI-Knowledgebase) for research.*
 
 It's one of the example projects from [Mac Install Guide](https://mac.install.guide/developer-setup/starter-project).
 
 ## Get it
 
-**With a Set Up Your Mac app.** The Set Up Your Mac apps create this project for you in `~/Projects/AI-Simple-Project`, after they set up your Mac. See [Set Up Your Mac](https://mac.install.guide/set-up-your-mac/).
+**With an app.** The [Set Up Your Mac](https://mac.install.guide/set-up-your-mac/) apps create this project for you after they set up your Mac. In the Yaxed editor, choose **File > New Project**.
 
-**Without an app.** Click **Use this template** above to make your own copy on GitHub, or download the `.zip` from the latest release and unzip it into a folder of your own.
+**Without an app.** Make your own copy on GitHub with **Use this template**, or download the `.zip` from the latest release and unzip it into a folder of your own.
 
 ## Use it
 
