@@ -4,7 +4,7 @@ Using your own copy? Open `README.md` in this folder to start.
 
 A ready-to-use practice folder for working with an AI assistant such as Claude or Codex. It has a page of rough notes to try, and instruction files (`AGENTS.md` and `CLAUDE.md`) that tell the assistant how to help. You don't need to know how to code.
 
-*Step 1 of 3: try an AI assistant on a page of notes. No coding needed. Next: [AI-Coding-Lite](https://github.com/InstallGuides/AI-Coding-Lite), or [AI-Knowledgebase](https://github.com/InstallGuides/AI-Knowledgebase) for research.*
+*Try an AI assistant on a page of notes. No coding needed. Related: [AI-Coding-Lite](https://github.com/InstallGuides/AI-Coding-Lite), or [AI-Knowledgebase](https://github.com/InstallGuides/AI-Knowledgebase) for research.*
 
 It's one of the example projects from [Mac Install Guide](https://mac.install.guide/developer-setup/starter-project).
 

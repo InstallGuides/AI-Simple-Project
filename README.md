@@ -2,7 +2,7 @@
 
 This folder is a safe place to try working with an AI assistant. You don't need to know how to code, and you can't break anything important here.
 
-*Step 1 of 3: try an AI assistant on a page of notes. No coding needed. Next: [AI-Coding-Lite](https://github.com/InstallGuides/AI-Coding-Lite), or [AI-Knowledgebase](https://github.com/InstallGuides/AI-Knowledgebase) for research.*
+*Try an AI assistant on a page of notes. No coding needed. Related: [AI-Coding-Lite](https://github.com/InstallGuides/AI-Coding-Lite), or [AI-Knowledgebase](https://github.com/InstallGuides/AI-Knowledgebase) for research.*
 
 ## Open this folder with your AI assistant
 
